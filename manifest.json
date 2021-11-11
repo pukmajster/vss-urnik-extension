@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "VSS Urnik",
+  "description": "",
+  "version": "0.0.0",
+  "author": "Žan Pukmajster",
+
+  "content_scripts": [
+    {
+      "matches": ["http://212.235.170.57/ve_urniki/*"],
+      "js": [
+        "./index.js"
+      ],
+      "css": [
+        "./styling.css"
+      ]
+    }
+  ]
+
+
+}
